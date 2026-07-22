@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p server)",
+      "Bash(npm init *)",
+      "Bash(cd *)",
+      "Bash(rm -rf server)",
+      "Bash(mkdir -p server/src client)",
+      "Bash(node -e \"require\\('./src/scanner.js'\\)\")",
+      "Bash(node --input-type=module -e ' *)",
+      "Bash(mkdir -p /c/Users/3bood/AppData/Local/Temp/claude/C--Users-3bood-OneDrive-Desktop-project3/22aec0fe-d347-430b-84f9-591430f0cdf1/scratchpad/redact-test)",
+      "Bash(cat)",
+      "Read(//c/Users/3bood/AppData/Local/Temp/claude/C--Users-3bood-OneDrive-Desktop-project3/22aec0fe-d347-430b-84f9-591430f0cdf1/scratchpad/redact-test/**)",
+      "Bash(PORT=4790 node src/index.js)",
+      "Bash(curl -s \"http://localhost:4790/api/default-root\")",
+      "Bash(curl -s -X POST http://localhost:4790/api/redact -H 'Content-Type: application/json' -d '{\"root\":\"C:\\\\Users\\\\3bood\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-3bood-OneDrive-Desktop-project3\\\\22aec0fe-d347-430b-84f9-591430f0cdf1\\\\scratchpad\\\\redact-test\",\"file\":\".env\",\"line\":2,\"match\":\"[REDACTED_BY_JANITOR]\"}')",
+      "Bash(node -e ' *)",
+      "Bash(curl -s -X POST http://localhost:4790/api/redact -H \"Content-Type: application/json\" --data-binary @/tmp/redact-body.json)",
+      "Bash(curl -s -X POST http://localhost:4790/api/redact -H 'Content-Type: application/json' --data-binary @C:/Users/3bood/AppData/Local/Temp/claude/C--Users-3bood-OneDrive-Desktop-project3/22aec0fe-d347-430b-84f9-591430f0cdf1/scratchpad/redact-body.json)",
+      "Bash(node -e 'console.log\\(encodeURIComponent\\('\\\\''C:/Users/3bood/AppData/Local/Temp/claude/C--Users-3bood-OneDrive-Desktop-project3/22aec0fe-d347-430b-84f9-591430f0cdf1/scratchpad/redact-test'\\\\''\\)\\)')",
+      "Bash(curl -s http://localhost:4790/api/scan?root=__CMDSUB_OUTPUT__)"
+    ]
+  }
+}
