@@ -1,5 +1,17 @@
+# Dependencies
 node_modules/
-dist/
-*.log
+client/node_modules/
+server/node_modules/
+
+# Local data & configs
+server/data/*.json
+
+# Environment variables & secrets
 .env
-.claude/ 
+*.env
+.env.local
+
+# Tool configs & IDEs
+.claude/
+.vscode/
+.DS_Store
